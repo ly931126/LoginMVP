@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="@dimen/icon_width"
+        android:layout_height="@dimen/icon_height"
+        android:layout_marginLeft="@dimen/margin_huge"
+        android:layout_marginTop="@dimen/margin_big"
+        android:src="@drawable/girlfly"/>
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="@dimen/edit_text_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_big"
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:hint="@string/input_user_name"
+        android:textSize="@dimen/textsize_normal"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="@dimen/edit_text_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_small"
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:hint="@string/input_password"
+        android:textSize="@dimen/textsize_normal"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="@dimen/login_btn_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_big"
+        android:text="@string/login"
+        android:textSize="@dimen/textsize_normal"/>
+
+</RelativeLayout>
