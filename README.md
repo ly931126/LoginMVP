@@ -5,6 +5,7 @@ MVP的使用
 
 效果图
 ---
+![MVP实现的登录界面](https://github.com/ly931126/LoginMVP/blob/master/device-2017-08-13-140205.png)
 
 
 ---
